@@ -1,0 +1,29 @@
+body {
+  background: #ccc; }
+
+.header {
+  background: #ecea64;
+  color: #e8edf1;
+  color: black;
+  padding: 30px;
+  margin: 10px 0;
+  text-align: center; }
+
+.content {
+  background: turquoise;
+  padding: 30px;
+  margin: 10px 0; }
+
+.footer {
+  background: #9feff5;
+  color: black;
+  padding: 30px;
+  margin: 10px 0;
+  text-align: center; }
+
+.btn {
+  padding: 10px 20px; }
+  .btn.primary {
+    background: #e8edf1; }
+  .btn.secondary {
+    background: #4ff165; }

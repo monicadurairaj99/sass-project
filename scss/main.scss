@@ -1,0 +1,52 @@
+@mixin spacing {
+    padding: 30px;
+    margin: 10px 0;
+}
+@mixin text-aline {
+    text-align: center;
+    
+}
+
+$color-primary: #e8edf1;
+$color-secondary: rgb(79, 241, 101);
+$color-cta: pink;
+$color-text:black;
+
+
+
+body {
+    background: #ccc;
+}
+
+.header {
+    background: rgb(236, 234, 100);
+    color: $color-primary;
+    color: $color-text;
+    
+    @include spacing;
+    @include text-aline;
+}
+
+.content {
+    background: turquoise;
+    @include spacing;
+}
+
+.footer {
+    background: rgb(159, 239, 245);
+    color: $color-text;
+    @include spacing;
+    @include text-aline;
+}
+
+.btn {
+    padding: 10px 20px;
+
+    &.primary {
+        background: $color-primary;
+    }
+
+    &.secondary {
+        background: $color-secondary;
+    }
+}
